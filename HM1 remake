@@ -1,0 +1,35 @@
+public class Main.java {
+    public static void main(String[] args) {
+
+        byte y = 45;
+        byte y1 = 15;
+        byte y3 = (byte)(y-y1);
+
+        System.out.println(y3);
+
+        float d = 3.18f;
+        float d1 = 45.7f;
+        float d2 = d1 - d;
+
+        System.out.println(d2);
+
+        short g = 46;
+        short g1 = 300;
+        int g2 = g1 * g;
+
+        System.out.println(g2);
+
+        long k = 17000000L;
+        long k1 = 1000000L;
+        long k3 = k/k1;
+
+        System.out.println(k3);
+
+        double q = 0.675312;
+        double q1= 67.98;
+        double q3 = q * q1;
+
+        System.out.println(q3);
+
+    }
+}
